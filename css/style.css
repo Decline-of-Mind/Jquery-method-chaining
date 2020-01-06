@@ -49,3 +49,7 @@ Navigation
 .border{
   border: solid 5px #ccc;
 }
+
+.makeRed {
+    background-color: red;
+}
