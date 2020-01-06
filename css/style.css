@@ -53,3 +53,7 @@ Navigation
 .makeRed {
     background-color: red;
 }
+
+.makeBorder {
+    border: 2px;
+}
