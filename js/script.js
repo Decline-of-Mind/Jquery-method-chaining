@@ -8,6 +8,15 @@ $("#button1").on("mouseleave", function() {
     $("#button1").removeClass("makeBorder").addClass("makeRed");
     });
 $("#button1").on("click", function() {
-    $(".card").siblings('#para1').slideToggle(400);
+    $('#para1').toggle(400);
+    });
+$("#button2").on("mouseenter", function() {
+    $("#button2").removeClass("makeRed").addClass("makeBorder");
+    });
+$("#button2").on("mouseleave", function() {
+    $("#button2").removeClass("makeBorder").addClass("makeRed");
+    });
+$("#button2").on("click", function() {
+    $('#para2').fadeToggle(400);
     });
 }); 
